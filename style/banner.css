@@ -228,3 +228,105 @@ font-size: 20px;
 font-weight: 500;
 line-height: 32px; /* 160% */
 }
+.gift{
+    background-image:url("../resources/Rectangle\ 2.png");
+background-repeat: no-repeat;
+background-position: bottom;
+display: flex;
+align-items: center;
+}
+.gift,.gift_1{
+    margin: 0 auto;
+    padding: 0px 120px; 
+
+}
+.gift_scetion{
+    width: 1240px;
+    margin: 0 auto;
+    text-align: left;
+   padding: 150px;
+   gap: 6px;
+
+}
+.gift_scetion h5{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.gift_scetion h2{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.gift_scetion p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px; /* 160% */
+width: 896px;
+height: 64px;
+}
+.shoping_things{
+    margin: 0 auto;
+    padding: 100px 350px;
+    line-height: 0px;
+flex-shrink: 0;
+gap: 24px;
+}
+.mail{
+    align-items: center;
+    margin: 0 auto;
+    width: 1240px;
+height: 616px;
+flex-shrink: 0;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+.mail img{
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+   padding: 80px 550px;
+}
+.mail h2{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 900;
+padding-bottom: 40px;
+gap: 24px;
+    
+}
+.mail p{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.box{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    background: #FFF;;
+
+}
+.form-box{
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+.form-box input{
+    
+}
