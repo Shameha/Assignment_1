@@ -358,6 +358,9 @@ font-size: 24px;
 font-weight: 500;
 line-height: 40px;
 }
+.icon_1{
+    display: inline;
+}
 .icon{
     margin: 0 auto;
     align-items: center;
